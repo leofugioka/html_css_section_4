@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Basics</title>
+
+    <!-- Main styles sheets -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
 
       <nav>
@@ -22,7 +26,7 @@
         <h2>The Basic Language of the Web: HTML</h2>
         <!-- Laura Jones profile picture -->
         <img src="img/laura-jones.jpg" alt="Heedshot of Laura Jones" />
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p class="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
         <!-- Main blog post image -->
         <img src="img/post-img.jpg" alt="HTML code on a screen" />
       </header>
@@ -61,24 +65,24 @@
 
     <aside>
       <h4>Related posts</h4>
-      <ul>
-        <li>
-          <img src="img/related-1.jpg" alt="Programmer coding" /><a href="#">How to Learn Web Development</a>
-          <p>By Leandro Fugioka</p>
+      <ul class="related-posts">
+        <li class="related-list">
+          <img class="related-image" src="img/related-1.jpg" alt="Programmer coding" /><a href="#">How to Learn Web Development</a>
+          <p class="related-author">By Leandro Fugioka</p>
         </li>
-        <li>
-          <img src="img/related-2.jpg" alt="Lightning strike" /><a href="#">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
+        <li class="related-list">
+          <img class="related-image" src="img/related-2.jpg" alt="Lightning strike" /><a href="#">The Unknown Powers of CSS</a>
+          <p class="related-author">By Jim Dillon</p>
         </li>
-        <li>
-          <img src="img/related-3.jpg" alt="Javascript code" /><a href="#">Why JavaScript is awesome</a>
-          <p>By Matilda</p>
+        <li class="related-list">
+          <img class="related-image" src="img/related-3.jpg" alt="Javascript code" /><a href="#">Why JavaScript is awesome</a>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
 
     <footer>
-      <p>Copyright &copy; 2027 The Code Magazine</p>
+      <p class="copyright">Copyright &copy; 2027 The Code Magazine</p>
     </footer>
   </body>
 </html>
