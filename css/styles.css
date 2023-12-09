@@ -8,6 +8,7 @@
 body {
   font-family: sans-serif;
   color: #444444;
+  border-top: 10px solid #1098ad;
   position: relative;
 }
 
@@ -43,8 +44,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 /* SMALLER ELEMENTS */
@@ -74,6 +74,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 p {
@@ -185,4 +186,35 @@ h2::after {
   position: absolute;
   top: -15px;
   right: -25px;
+}
+
+/*  FLOATS */
+.author-img {
+  float: left;
+}
+
+.author {
+  float: right;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+article {
+  width: 70%;
+  float: left;
+}
+
+aside {
+  width: 25%;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
