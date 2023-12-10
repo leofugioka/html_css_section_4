@@ -286,9 +286,6 @@ article {
   gap: 30px;
 }
 
-aside {
-}
-
 footer {
   background-color: #1098ad;
   grid-column: 1 / -1;
